@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+}
+body{
+  background-color: rgb(219, 254, 255);
+}
+.weather-card{
+  width: 50vh;
+  height: 52vh;
+  background-color: rgb(230, 243, 242);
+  margin: 10rem auto;
+  border-radius: 30px;
+
+}
+.card-content{
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.weather-info{
+  display: flex;
+  flex-direction: row-reverse;
+}
+ul{
+  list-style: none;
+}
+.weather-description{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.weather-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  border-radius: 4px;
+  margin: none;
+  border: none;
+  width: 125px;
+  height: 45px;
+
+}
+box-icon{
+  color:red;
+}
+
+.weather-description>li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.weather{
+  margin:0 auto;
+}
